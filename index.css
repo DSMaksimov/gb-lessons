@@ -1,43 +1,109 @@
-body {        /* Общая стилизация */
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Общая стилизация */
   font-family: sans-serif;
 }
 
-.text {        /* Стилизация параграфов */  
+.top__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.middle__content__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle__content__block__element {
+
+  width: 359px;
+}
+
+/* .middle__left .middle__right {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.middle__col {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__feedback {
+  width: 495px;
+}
+
+
+.foote__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  /* Стилизация параграфов */
   font-size: 16px;
   line-height: 26px;
   color: #1F3F68;
 }
 
-.heading_first {         /* Заголовки 1 уровня */
-  font-size: 64px;
-  color: #1F3F68;
+.text__first {
+  width: 425px;
 }
 
-.heading_second {         /* Заголовки 2 уровня */
+.heading__first {
+  /* Заголовки 1 уровня */
+  font-size: 64px;
+  color: #1F3F68;
+  width: 510px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+}
+
+.heading_second {
+  /* Заголовки 2 уровня */
   font-weight: 500;
   font-size: 44px;
   text-align: center;
 }
 
-.heading_third {        /* Заголовки 3 уровня */
+.heading_third {
+  /* Заголовки 3 уровня */
   font-size: 36px;
   text-align: center;
 }
 
-.heading_fourth {        /* Заголовки 4 уровня */
+.heading__bottom {
+  width: 340px;
+}
+
+.heading_fourth {
+  /* Заголовки 4 уровня */
   font-size: 20px;
   line-height: 30px;
   color: #1F3F68;
 }
 
-.forms {        /* Стилезация формы */
+.forms {
+  /* Стилезация формы */
   border: 1px solid #356EAD;
   box-sizing: border-box;
   border-radius: 10px;
   opacity: 0.4;
 }
 
-.btn_submit {        /* Кнопка отправить */
+.btn_submit {
+  /* Кнопка отправить */
   background: #5A98D0;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
@@ -47,7 +113,3 @@ body {        /* Общая стилизация */
   color: #FFFFFF;
   text-transform: uppercase;
 }
-
-
-
-
